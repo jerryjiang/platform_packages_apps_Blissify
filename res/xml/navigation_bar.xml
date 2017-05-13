@@ -23,7 +23,7 @@
         android:title="@string/navbar_enable_bar"
         android:defaultValue="true" />
 
-    <PreferenceScreen
+    <!-- <PreferenceScreen
         android:fragment="com.blissroms.blissify.fragments.NavBarDimensSettings"
         android:key="navbar_dimens"
         android:title="@string/navbar_dimensions_title"
@@ -36,6 +36,6 @@
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.systemui"
             android:targetClass="com.android.systemui.tuner.NavbarActivity" />
-    </PreferenceScreen> 
+    </PreferenceScreen> -->
 
 </PreferenceScreen>
