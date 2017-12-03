@@ -24,6 +24,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference; 
 import android.support.v7.preference.Preference.OnPreferenceChangeListener; 
  
+import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
  
 import com.android.settings.R; 
